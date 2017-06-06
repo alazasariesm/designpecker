@@ -1,0 +1,316 @@
+/*All*/
+*{
+	font-family: Lato;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+}
+
+/*bootstrap button*/
+.btn-success:hover{
+	transition: .8s;
+}
+.btn-default:hover{
+	transition: .8s;
+	background: #00b289;
+	color: #fff;
+	border: 1px solid #fff;
+}
+/*start nav header*/
+.nav-margin-1{
+	margin-top: 38px;
+}
+.nav-margin-2{
+	margin-top: 25px;	
+}
+.btn-header-nav{
+	border: 2px solid #00b289;
+	background: #fff;
+	color: #00b289;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-right: 12px;
+}
+.btn-header-nav:hover{
+	transition: .8s
+}
+body > div:nth-child(1) > div:nth-child(1) > div.col-sm-5.nav-margin-1 > p{
+	padding-right: 5px;
+	margin-left: 30px;
+}
+/*start nav header*/
+
+/* start banner*/
+.banner-margin1{	
+	margin-top: 140px;
+	margin-left: 18px;
+	padding-right: 4%;
+}
+.banner-margin2{
+	margin-top: 47px;
+}
+.btn-banner{
+	background: #00b289;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 3.5%;
+	padding-bottom: 3.5%;
+	margin-top: 34px;
+	font-weight: bold;
+}
+
+body>div>div:nth-child(2)>
+div.col-sm-5.banner-margin1>
+h1{
+	margin-bottom: 44px;
+}
+/* start banner*/
+
+
+/*start full width banner*/
+.full-width-banner1{
+	background: #00b289;
+	margin-top: 22px;
+}
+.full-width-banner1-label{
+	margin-top: -162px;
+	margin-left: 4%;
+	font-size: 23.45px;
+	color: #fff;
+}
+/*end full width banner*/
+
+/*category-margin*/
+.category-margin{
+	margin-top: 100px;
+}
+.category-radius{
+	border-radius: 15px 15px 15px 15px; 
+}
+.category-margin h4{
+	font-weight: bold;
+	opacity: .8;
+}
+body > div.container.category-margin > div:nth-child(1) > div:nth-child(2) > div > div > div > div.col-sm-4 > img{
+	margin-top: -5px;
+}
+body > div.container.category-margin > div:nth-child(1) > div:nth-child(2) > div > div{
+	padding-bottom: 10px;
+}
+body > div.container.category-margin > div:nth-child(1) > div:nth-child(3) > div > div{
+	padding-bottom: 24px;
+}
+body > div.container.category-margin > div:nth-child(2) > div:nth-child(3) > div > div > div > div.col-sm-4 > img{
+	margin-top: -5px;
+	margin-bottom: -2px;
+	margin-left: -4px;
+}
+
+body > div.container.category-margin > div:nth-child(2) > div:nth-child(3) > div > div{
+	padding-bottom: 5px;
+}
+body > div.container.category-margin > div:nth-child(2) > div:nth-child(2) > div > div{
+	padding-bottom: 19px;
+}
+body > div.container.category-margin > div:nth-child(2) > div:nth-child(1) > div > div > div > div.col-sm-4 > img{
+	margin-left: -10px;
+	margin-top: -5px;
+}
+body > div.container.category-margin > div:nth-child(2) > div:nth-child(1) > div > div{
+	padding-bottom: 8px;
+}
+.show-more-button{
+	margin-top: 40px;
+	background: #00b289;
+	padding: 15px 75px;
+	margin-bottom: 80px;
+	font-weight: bold;
+}
+/*end category*/
+
+/* start HOW IT WORKS*/
+body > div:nth-child(4) > h1{
+	color: #4c525a;
+}
+.how-it-works-bg-color{
+	background: #f6f9fb;
+}
+body > div.container-fluid.how-it-works-bg-color > h1{
+	margin-top: 85px;
+	margin-bottom: 50px;
+}
+.how-it-works-margin{
+    padding-bottom: 55px;	
+}
+body > div.container-fluid.how-it-works-bg-color.how-it-works-margin > div:nth-child(3){
+	margin-top: 18px;
+	margin-bottom: 62px;
+
+}
+/* end HOW IT WORKS*/
+
+/* start small banner2 */
+.full-width-banner2{
+	background: #00b289;
+	margin-top: none;
+}
+.full-width-banner2-label{
+	margin-top: -192px;
+	margin-left: 8%;
+	font-size: 23.45px;
+	color: #fff;
+}
+.checkout-button{
+	color: #00b289;
+	font-weight: bold;	
+	font-size: 13.28px;
+	padding-right: 30px;
+	padding-left: 30px;
+	padding-top: 13px;
+	padding-bottom: 13px;
+}
+/*end small banner 2*/
+
+/*start designer*/
+.designer-bg-color{
+	background: #ecf1f5;
+}
+body > div.container-fluid.designer-bg-color > h1{
+	margin: 77px 0;
+
+}
+.designer-bg-color p{
+	opacity: .5;
+}
+.designer-panel{
+	border-radius: 0 0 0 0;
+}
+.follower-panel{
+	background: #f5f8fd;
+	margin-top: -20.5px;
+	border-radius: 0 0 0 0;
+	border-top: 0; 
+	/*border: 1px solid red;*/
+}
+.follow-list{
+	margin-top: 10px;
+}
+.follower-panel .text-center .follow-list ul li{
+	list-style-type: none;
+}
+body > div.container-fluid.designer-bg-color > div > div > strong > strong > div > div.panel.panel-default.designer-panel > div > div:nth-child(2){
+	margin-top: 7px;
+}
+body > div.container-fluid.designer-bg-color > div > div > strong > strong > strong > strong > div > div.panel.panel-default.designer-panel > div > div:nth-child(2){
+	margin-top: 3px;
+}
+body > div.container-fluid.designer-bg-color > div > div > strong > strong > strong > strong > strong > strong > div > div.panel.panel-default.designer-panel > div > div:nth-child(2){
+	margin-top: 7px;
+}
+body > div.container-fluid.designer-bg-color > div > strong > strong > div > div > div.panel.panel-default.designer-panel > div > div:nth-child(2){
+	margin-top: 4px;
+}
+body > div.container-fluid.designer-bg-color > div > strong > strong > div > strong > strong > strong > strong > div > div.panel.panel-default.designer-panel > div > div:nth-child(2){
+	margin-top: 4px;
+}
+body > div.container-fluid.designer-bg-color > div > div > div > div.panel.panel-default.follower-panel > div > strong > strong > div > ul{
+	padding: 0;
+	border-left: 1px solid #ccc;
+	margin-right: 10px; 
+	margin-left: -10px; 
+}
+body > div.container-fluid.designer-bg-color > div > div > strong > strong > div > div.panel.panel-default.follower-panel > div > strong > strong > div > ul{
+	padding: 0;
+	border-left: 1px solid #ccc;
+	margin-right: 10px; 
+	margin-left: -10px; 
+}
+body > div.container-fluid.designer-bg-color > div > div > strong > strong > strong > strong > div > div.panel.panel-default.follower-panel > div > strong > strong > div > ul{
+	padding: 0;
+	border-left: 1px solid #ccc;
+	margin-right: 10px; 
+	margin-left: -10px; 
+}
+body > div.container-fluid.designer-bg-color > div > div > strong > strong > strong > strong > strong > strong > div > div.panel.panel-default.follower-panel > div > strong > strong > div > ul{
+	padding: 0;
+	border-left: 1px solid #ccc;
+	margin-right: 10px; 
+	margin-left: -10px; 
+}
+body > div.container-fluid.designer-bg-color > div > strong > strong > div > div > div.panel.panel-default.follower-panel > div > strong > strong > div > ul{
+	padding: 0;
+	border-left: 1px solid #ccc;
+	margin-right: 10px; 
+	margin-left: -10px;
+}
+body > div.container-fluid.designer-bg-color > div > strong > strong > div > strong > strong > div > div.panel.panel-default.follower-panel > div > strong > strong > div > ul{
+	padding: 0;
+	border-left: 1px solid #ccc;
+	margin-right: 10px; 
+	margin-left: -10px;
+}
+body > div.container-fluid.designer-bg-color > div > strong > strong > div > strong > strong > strong > strong > div > div.panel.panel-default.follower-panel > div > strong > strong > div > ul{
+	padding: 0;
+	border-left: 1px solid #ccc;
+	margin-right: 10px; 
+	margin-left: -10px;
+}
+body > div.container-fluid.designer-bg-color > div > strong > strong > div > strong > strong > strong > strong > strong > strong > div > div.panel.panel-default.follower-panel > div > strong > strong > div > ul{
+	padding: 0;
+	border-left: 1px solid #ccc;
+	margin-right: 10px; 
+	margin-left: -10px;
+	opacity: .8s;
+}
+.follow-list ul li{
+	color: #ccc;
+}
+.follow-list ul li strong{
+	color: #000;
+}
+/*end designer*/
+
+/*start small banner 3*/
+.create-button{
+	color: #00b289;
+	font-weight: bold;	
+	font-size: 13.28px;
+	padding-right: 60px;
+	padding-left: 60px;
+	padding-top: 13px;
+	padding-bottom: 13px;
+	margin-top: 12px;
+}
+/*end small banner 3*/
+
+/*start footer area*/
+.footer-bg1{
+	background: #353737;
+	color: #fff;
+	border-bottom: 1px solid #525252;
+
+}
+
+.footer-bg1 ul li {
+	list-style-type: none;
+	color: #b3b3b3;
+	opacity: .4;
+}
+.footer-margin1{
+	margin-top: 15px;
+	margin-bottom: 35px;
+}
+.footer-bg2{
+	background: #353737;
+	color: #fff;
+}
+.footer-margin2{
+	margin-top: 25px;
+	margin-bottom: 35px;
+	margin-left: 80px;
+	color: #b3b3b3;
+	opacity: .4;
+}
+/*end footer area*/
